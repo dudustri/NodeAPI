@@ -7,7 +7,7 @@ import { createUser, getAllUsers, getUserByID, deleteUser, updateUser} from "../
 
 const userSchema = mongoose.Schema({
 
-
+    //put the DB schema here
 
 })
 
