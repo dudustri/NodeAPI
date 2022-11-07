@@ -71,7 +71,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/dudustri)
 
-This is a personal project approaching understanding and creating an API using Node JS and Express.
+This is a personal project approaching, understanding and creating an API using Node JS and Express.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,28 +92,28 @@ To get a local copy up and running the project you can follow the next steps!
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+To run this project first you need to install node.js and express.js.
+If you follow the instructions presented in the next section you gonna be more than fine and be able to run an amazing API locally in your machine 👍
 
 ### Installation
 
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/dudustri/NodeAPI
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Install Express
+   ```sh
+   npm install express
    ```
+4. Run the node using the terminal
+   ```sh
+   npm start
+   ```
+5. Have fun! Use the API locally 😎
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,8 +143,7 @@ See the [open issues](https://github.com/dudustri) for a full list of proposed f
 <!-- CONTRIBUTING -->
 ## Contributing
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
