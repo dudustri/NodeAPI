@@ -1,6 +1,17 @@
 import express from "express";
+import mongoose from "mongoose";
 
 import { createUser, getAllUsers, getUserByID, deleteUser, updateUser} from "../controllers/users.js";
+
+
+
+const userSchema = mongoose.Schema({
+
+
+
+})
+
+
 
 const router = express.Router();
 
